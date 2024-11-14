@@ -1,3 +1,14 @@
+/* HOME */
+.custom-feauture-img{
+    display: block;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* PROYECTO */
+
+
 .responsive-iframe {
     position: relative;
     width: 100%;
