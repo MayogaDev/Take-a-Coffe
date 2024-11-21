@@ -1,5 +1,5 @@
 /* HOME */
-.custom-feauture-img{
+.custom-feauture-img {
     display: block;
     height: 200px;
     margin: auto;
@@ -7,8 +7,6 @@
 }
 
 /* PROYECTO */
-
-
 .responsive-iframe {
     position: relative;
     width: 100%;
@@ -30,6 +28,28 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .logo-in-hero {
     width: 200px;
+}
+
+/* ANEXO */
+.video-container {
+    position: relative;
+    width: 60%;
+    padding-bottom: 33.75%;
+    /* Esto asegura la relación de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+    background: #000;
+    margin: 0 auto;
+    /* Esto centra el video horizontalmente */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
