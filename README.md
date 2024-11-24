@@ -77,5 +77,5 @@ Tu retroalimentación es fundamental para mejorar esta herramienta educativa inn
 
 ---
 
-## 👥 **Acknowledgments**  
-This project is proudly conducted in collaboration with the **Universidad Nacional de San Agustín de Arequipa**, with contributions from researchers and students dedicated to advancing accessibility technologies.  
+## 👥 **Expresiones de gratitud**  
+Este proyecto se lleva a cabo orgullosamente en colaboración con la **Universidad Nacional de San Agustín de Arequipa**, con contribuciones de investigadores y estudiantes dedicados al avance de las tecnologías de accesibilidad.
