@@ -1,4 +1,4 @@
-# ☕ **Take-a-Cup: Una Experiencia Educativa en Realidad Virtual**
+# ☕ **Take-a-Cup: Una Experiencia Educativa en Realidad Virtual- Simulador de Capacitación en Cafeterias**
 
 ### 📅 **Duración**: Abril 2024 - Actualidad  
 ### 🏫 **Asociado con**: Universidad Nacional de San Agustín de Arequipa  
