@@ -3,10 +3,20 @@
     display: block;
     width: 50px;
 }
-/* HOME */
+
+/* FEATURED SECTION IN HOME */
+
+.featured-section p {
+    font-size: 16px;
+}
+.featured-section a {
+    font-size: 16px;
+    margin-top: 0px !important;
+}
+
 .custom-feauture-img {
     display: block;
-    height: 200px;
+    height: 150px;
     margin: auto;
     margin-bottom: 20px;
 }
