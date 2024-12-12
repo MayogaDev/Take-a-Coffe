@@ -1,233 +1,334 @@
 <!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <title>Proyecto</title>
 
-    <title>IHC - Proyecto</title>
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- CSS FILES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/anexo.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">
+        <style>
+            /* Asegura que el texto dentro de las modales también use tus estilos */
+            /* Asegura que el texto dentro de las modales también use tus estilos */
+        .modal-content {
+            font-family: 'Roboto', sans-serif;
+            color: #333; /* Ajusta al color de tus textos */
+            border-radius: 10px; /* Radio de las esquinas */
+        }
+        /* Ajuste de las esquinas de las modales */
+        .modal-content {
+            border-radius: 10px; /* Radio de las esquinas */
+        }
+        /* Asegurar que el video se ajuste bien */
+        .video-container iframe {
+            width: 100%;
+            height: 500px;
+        }
+        /* Clase personalizada para modales más grandes */
+        .modal-dialog.custom-modal-size {
+            max-width: 95%; /* Ajusta al porcentaje deseado */
+            margin: 1.75rem auto; /* Centrado vertical y horizontal */
+        }
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap"
-        rel="stylesheet">
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
-    <link href="css/anexo.css" rel="stylesheet">
-    <link href="css/custom-style.css" rel="stylesheet">
-
-    <link href="css/templatemo-topic-listing.css" rel="stylesheet">
-
-    <!-- FAVICON -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-
-    <!--
+        </style>
+<!--
 
 TemplateMo 590 topic listing
 
 https://templatemo.com/tm-590-topic-listing
 
 -->
-</head>
+    </head>
+    
+    <body class="topics-listing-page" id="top">
 
-<body id="top">
+        <main>
 
-    <main>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Cambia "logo.png" por el nombre exacto de tu archivo de logo -->
+                       <img class="logo-nav"  src="images/Logo_juego-removebg-preview.png" alt="Logo" width="50" height="50">
+                    </a>
 
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <!-- Cambia "logo.png" por el nombre exacto de tu archivo de logo -->
-                   <img class="logo-nav"  src="images/Logo_juego-removebg-preview.png" alt="Logo">
-                </a>
-
-                <div class="d-lg-none ms-auto me-4">
-                    <!-- <a href="#top" class="navbar-icon bi-person smoothscroll"></a> -->
-                </div>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-lg-5 me-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.html#section_2">DESCRIPCIÓN GENERAL</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.html#section_3">PROCESO</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="index.html#section_4">Sobre Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="proyecto.html">Proyecto</a>
-                        </li>
-                    </ul>
-
-                    <div class="d-none d-lg-block">
+                    <div class="d-lg-none ms-auto me-4">
                         <!-- <a href="#top" class="navbar-icon bi-person smoothscroll"></a> -->
                     </div>
-                </div>
-            </div>
-        </nav>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+                            </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="index.html#section_2">DESCRIPCIÓN GENERAL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="index.html#section_3">Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="juego.html">JUEGO</a>
+                            </li>
 
-        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
-            <div class="container">
-                <div class="col-lg-8 col-12 mx-auto">
-                    <h1 class="text-white text-center">Proyecto</h1>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="proyecto.html">PROYECTO</a>
+                            </li>
+                        </ul>
 
-                </div>
-            </div>
-        </section>
-
-
-        <section id="anexos" class="section-padding">
-            <div class="container">
-                <h3 class="text-center">Needfinding</h3>
-                <p>Identificamos las necesidades y deseos de los usuarios. Este proceso implicó observar y
-                    analizar el comportamiento de los usuarios en su entorno natural, así como realizar entrevistas y
-                    encuestas para obtener información valiosa sobre sus experiencias y expectativas.</p>
-                <div class="slider">
-                    <div class="list">
-                        <div class="item">
-                            <img src="images/ne1.png" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/ne2.png" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/ne3.png" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/n4.png" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/ne5.png" alt="">
-                        </div>s
-                        <div class="item">
-                            <img src="images/ne6.png" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/ne7.png" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/ne8.png" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/ne9.png" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="images/ne10.png" alt="">
+                        <div class="d-none d-lg-block">
+                            <!-- <a href="#top" class="navbar-icon bi-person smoothscroll"></a> -->
                         </div>
                     </div>
-                    <div class="buttons">
-                        <button id="prev">
-                            < </button>
-                                <button id="next">
-                                    >
-                                </button>
-                    </div>
-                    <ul class="dots">
-                        <li class="active"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
                 </div>
-                <div class="col-1s2 text-center mt-5">
-                    <a href="https://docs.google.com/presentation/d/1C9UZDXnPDQSGYVklgzLFsR_TXGnxrGoH/edit?usp=sharing&ouid=112016824945116914181&rtpof=true&sd=true"
-                        class="btn custom-btn custom-border-btn ms-3">PPT</a>
-                    <a href="https://forms.gle/ayrHPtkXEUyCuSWm6"
-                    class="btn custom-btn custom-border-btn ms-3">Cuestionario</a>
-                    <a href="https://drive.google.com/drive/folders/1wOm0demuXVB6l_PfUcStPLwRkFhjlFiC?usp=sharing"
-                    class="btn custom-btn custom-border-btn ms-3">Evidencias</a>
+            </nav>
 
-                </div>
 
-                <br>
-                <hr>
+            <header class="site-header d-flex flex-column justify-content-center align-items-center">
+                <div class="container">
+                    <div class="row align-items-center">
 
-                <!-- STORYBOARD - EXPLICACIÓN -->
-                <div class="col-md-12">
-                    <br>
-                    <br>
-                    <br>
-                    <h3 class="text-center">Storyboard - Explicación </h3>
-                    <p>El storyboard es una herramienta visual que se utiliza para narrar una historia o describir una
-                        secuencia de eventos desde la perspectiva del usuario. Nuestro storyboard será especialmente
-                        útil
-                        para ilustrar cómo el usuario interactúa con las interfaces que planteamos en nuestro videojuego
-                        de simulación.</p>
-                    <br>
-                    <div class="video-container">
-                        <iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/0N7Pjirnqps?si=BHi_J_i_nm5hfc7v"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
+                        <div class="col-lg-5 col-12">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Homepage</a></li>
 
-                </div>
+                                    <li class="breadcrumb-item active" aria-current="page">Proyecto</li>
+                                </ol>
+                            </nav>
 
-                <br>
-                <hr>
-                <!-- STORYBOARD - EVALUACIÒN USUARIOS -->
-                <div class="col-md-12">
-                    <br>
-                    <br>
-                    <br>
-                    <h3 class="text-center">Storyboard - Evaluación con usuario </h3>
-                    <p>
-                        La evaluación del storyboard con el usuario experto fue un paso crucial para asegurar que el diseño
-                        propuesto realmente cumplía con las necesidades y expectativas de los usuarios finales. Sus observaciones y anotaciones 
-                        permitieron encontrar áreas de mejora que se implementarán posteriormente.
-                    </p>
-                    <br>
-                    <div class="video-container">
-                        <iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/ZFTx1vZnNUE?si=BxXgnAH9F2NIEgVq"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <h2 class="text-white">Proyecto Final</h2>
+                        </div>
+
                     </div>
                 </div>
+            </header>
 
 
-            </div> <!-- end Container -->
-        </section>
+            <section class="section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-12 text-center">
+                            <h3 class="mb-4">Contenido</h3>
+                        </div>
+        
+                        <div class="col-lg-8 col-12 mt-3 mx-auto">
+                            <!-- Primer bloque -->
+                            <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
+                                <div class="d-flex">
+                                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                                    <div class="custom-block-topics-listing-info d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Información del Proyecto</h5>
+                                            <p class="mb-0">"Take a Cup" es un juego interactivo en realidad virtual donde el usuario asume el rol de mesero y debe atender a los clientes en un entorno de cafetería. 
+                                                Perfecto para practicar habilidades de servicio y atención al cliente en una experiencia inmersiva.</p>
+</p>
+                                            <!-- Botón para abrir el modal -->
+                                            <a href="topics-detail.html" class="btn custom-btn mt-3 mt-lg-4">Ver más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Segundo bloque -->
+                            <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
+                                <div class="d-flex">
+                                    <img src="images/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt="">
+                                    <div class="custom-block-topics-listing-info d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Needfinding</h5>
+                                            <p class="mb-0">Identificamos las necesidades y deseos de los usuarios. Este proceso implicó observar y analizar el comportamiento de los usuarios en su entorno natural, así como realizar entrevistas y encuestas para obtener información valiosa sobre sus experiencias y expectativas.</p>
+                                            <!-- Botón para abrir el modal -->
+                                            <button class="btn custom-btn mt-3 mt-lg-4" data-bs-toggle="modal" data-bs-target="#modalNeedfinding">Ver más</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Modal para Needfinding -->
+                            <div class="modal fade" id="modalNeedfinding" tabindex="-1" aria-labelledby="modalNeedfindingLabel" aria-hidden="true">
+                                <div class="modal-dialog custom-modal-size"> <!-- Aplicada la clase personalizada -->
+                                    <div class="modal-content bg-white shadow-lg">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalNeedfindingLabel">Needfinding</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="slider">
+                                                <div class="list">
+                                                    <div class="item">
+                                                        <img src="images/ne1.png" alt="">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="images/ne2.png" alt="">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="images/ne3.png" alt="">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="images/n4.png" alt="">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="images/ne5.png" alt="">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="images/ne6.png" alt="">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="images/ne7.png" alt="">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="images/ne8.png" alt="">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="images/ne9.png" alt="">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img src="images/ne10.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="buttons">
+                                                    <button id="prev">&lt;</button>
+                                                    <button id="next">&gt;</button>
+                                                </div>
+                                                <ul class="dots">
+                                                    <li class="active"></li>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li></li>
+                                                    <li></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-1s2 text-center mt-5">
+                                                <a href="https://docs.google.com/presentation/d/1C9UZDXnPDQSGYVklgzLFsR_TXGnxrGoH/edit?usp=sharing&ouid=112016824945116914181&rtpof=true&sd=true"
+                                                    class="btn custom-btn custom-border-btn ms-3">PPT</a>
+                                                <a href="https://forms.gle/ayrHPtkXEUyCuSWm6"
+                                                class="btn custom-btn custom-border-btn ms-3">Cuestionario</a>
+                                                <a href="https://drive.google.com/drive/folders/1wOm0demuXVB6l_PfUcStPLwRkFhjlFiC?usp=sharing"
+                                                class="btn custom-btn custom-border-btn ms-3">Evidencias</a>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn custom-btn" data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Tercer bloque -->
+                            <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
+                                <div class="d-flex">
+                                    <img src="images/topics/undraw_Podcast_audience_re_4i5q.png" class="custom-block-image img-fluid" alt="">
+                                    <div class="custom-block-topics-listing-info d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Storyboard - Explicación</h5>
+                                            <p class="mb-0">El storyboard es una herramienta visual que se utiliza para narrar una historia o describir una secuencia de eventos desde la perspectiva del usuario. Nuestro storyboard será especialmente útil para ilustrar cómo el usuario interactúa con las interfaces que planteamos en nuestro videojuego de simulación.</p>
+                                            <!-- Botón para abrir el modal -->
+                                            <button class="btn custom-btn mt-3 mt-lg-4" data-bs-toggle="modal" data-bs-target="#modalStoryboardExplicacion">Ver más</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Modal para Storyboard Explicación -->
+                            <div class="modal fade" id="modalStoryboardExplicacion" tabindex="-1" aria-labelledby="modalStoryboardExplicacionLabel" aria-hidden="true">
+                                <div class="modal-dialog custom-modal-size"> <!-- Aplicada la clase personalizada -->
+                                    <div class="modal-content bg-white shadow-lg">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalStoryboardExplicacionLabel">Storyboard - Explicación</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="video-container">
+                                                <iframe width="100%" height="500"
+                                                    src="https://www.youtube.com/embed/0N7Pjirnqps?si=BHi_J_i_nm5hfc7v"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn custom-btn" data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Cuarto bloque -->
+                            <div class="custom-block custom-block-topics-listing bg-white shadow-lg mb-5">
+                                <div class="d-flex">
+                                    <img src="images/topics/undraw_Group_video_re_btu7.png" class="custom-block-image img-fluid" alt="">
+                                    <div class="custom-block-topics-listing-info d-flex">
+                                        <div>
+                                            <h5 class="mb-2">Storyboard - Evaluación con usuario</h5>
+                                            <p class="mb-0">La evaluación del storyboard con el usuario experto fue un paso crucial para asegurar que el diseño propuesto realmente cumplía con las necesidades y expectativas de los usuarios finales. Sus observaciones y anotaciones permitieron encontrar áreas de mejora que se implementarán posteriormente.</p>
+                                            <!-- Botón para abrir el modal -->
+                                            <button class="btn custom-btn mt-3 mt-lg-4" data-bs-toggle="modal" data-bs-target="#modalStoryboardEvaluacion">Ver más</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Modal para Storyboard Evaluación -->
+                            <div class="modal fade" id="modalStoryboardEvaluacion" tabindex="-1" aria-labelledby="modalStoryboardEvaluacionLabel" aria-hidden="true">
+                                <div class="modal-dialog custom-modal-size"> <!-- Aplicada la clase personalizada -->
+                                    <div class="modal-content bg-white shadow-lg">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalStoryboardEvaluacionLabel">Storyboard - Evaluación con usuario</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="video-container">
+                                                <iframe width="100%" height="500"
+                                                    src="https://www.youtube.com/embed/ZFTx1vZnNUE?si=BxXgnAH9F2NIEgVq"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn custom-btn" data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Bootstrap JS y Popper.js -->
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
 
-    </main>
+        
+        </main>
 
-    <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/click-scroll.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/anexo.js"></script>
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/anexo.js"></script>
 
-</body>
-
+    </body>
 </html>
