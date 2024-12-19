@@ -48,7 +48,9 @@ https://templatemo.com/tm-590-topic-listing
 body {
   background-color: var(--white-color);
   font-family: var(--body-font-family); 
-}
+  cursor: url('../images/coffee-cup-48.png'), auto !important;
+
+ }
 
 
 /*---------------------------------------
